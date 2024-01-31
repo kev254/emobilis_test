@@ -1,0 +1,16 @@
+<LinearLayout
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/studentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/person_layout"/>
+
+    <TextView
+        android:id="@+id/tvStudentId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student ID:"/>
+</LinearLayout>
